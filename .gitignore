@@ -1,0 +1,37 @@
+# IDE
+.idea/
+.vs/
+*.user
+*.suo
+
+# Build
+bin/
+obj/
+out/
+
+# .NET
+*.nupkg
+*.snupkg
+project.lock.json
+*.nuget.props
+*.nuget.targets
+
+# Logs
+*.log
+logs/
+
+# Local
+appsettings.*.json
+!appsettings.Development.json
+
+# Secrets
+*.pfx
+*.p12
+
+# macOS
+.DS_Store
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
